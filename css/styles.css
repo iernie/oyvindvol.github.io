@@ -44,7 +44,7 @@
     background-color: #2b9eb3;
 }
 
- .text-primary, a {
+.text-primary, a {
     color: #2b9eb3;
 }
 
@@ -70,4 +70,12 @@ img.prosessen-img {
   border-radius: 0;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
+}
+
+#portfolio .portfolio-item .portfolio-caption {
+  min-height: 400px;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+  background: #2b9eb3;
 }
