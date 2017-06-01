@@ -87,3 +87,45 @@ img.prosessen-img {
     background-color: #1b92c7;
   }
 }
+
+header {
+  background: none;
+  height: 100vh;
+  overflow: hidden;
+}
+
+video.full {
+  position: absolute;           
+    right: 0;
+    bottom: 0;
+                   
+
+    min-width: 100%;           
+    min-height: 100%;
+    width: auto;               
+    height: auto;
+
+    top: 50%;                  
+    left: 50%;                 
+
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);         
+
+    background: url(bkg.jpg) no-repeat;      
+    background-size: cover;
+}
+
+.intro-text {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.intro-text .intro-lead-in {
+  max-width: 700px;
+  margin: 0 auto;
+}
