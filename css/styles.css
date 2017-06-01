@@ -1,0 +1,54 @@
+.m-t-15 {
+  margin-top: 15px !important;
+}
+
+.m-t-20 {
+  margin-top: 20px !important;
+}
+
+.m-t-60 {
+  margin-top: 60px !important;
+}
+
+.referanse-img {
+  max-height: 100px;
+  margin: 0 auto;
+}
+
+.quote {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.quote-by {
+  float: right;
+}
+
+.read-more-btn {
+	width: 90px;
+}
+
+.navbar-brand {
+	padding: 7px 0 0 15px;
+}
+
+.navbar-custom .navbar-nav>.active>a {
+	background-color: #2b9eb3;
+}
+
+.navbar-custom .nav li a:focus, .navbar-custom .nav li a:hover {
+    color: #2b9eb3;
+}
+
+.navbar-custom .navbar-nav>.active>a:focus, .navbar-custom .navbar-nav>.active>a:hover {
+    background-color: #2b9eb3;
+}
+
+ .text-primary, a {
+    color: #2b9eb3;
+}
+
+.profile-photo {
+	max-width: 200px;
+	max-height: 200px;
+}
