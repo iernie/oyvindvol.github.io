@@ -96,25 +96,25 @@ header {
 
 video.full {
   position: absolute;           
-    right: 0;
-    bottom: 0;
+  right: 0;
+  bottom: 0;
                    
 
-    min-width: 100%;           
-    min-height: 100%;
-    width: auto;               
-    height: auto;
+  min-width: 100%;           
+  min-height: 100%;
+  width: auto;               
+  height: auto;
 
-    top: 50%;                  
-    left: 50%;                 
+  top: 50%;                  
+  left: 50%;                 
 
-    -webkit-transform: translate(-50%,-50%);
-    -moz-transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);         
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);         
 
-    background: url(bkg.jpg) no-repeat;      
-    background-size: cover;
+  background: url('../img/header-bg.jpg') no-repeat;      
+  background-size: cover;
 }
 
 .intro-text {
