@@ -52,3 +52,22 @@
 	max-width: 200px;
 	max-height: 200px;
 }
+
+ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+    background-color: #2b9eb3;
+}
+
+img.prosessen-img {
+  margin: 0 auto;
+}
+
+.prosessen-img-wrapper {
+  height: 100%;
+  padding-top: 30px;
+}
+
+.prosessen-img-wrapper .img-circle {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+}
