@@ -35,15 +35,15 @@
 }
 
 .navbar-custom .navbar-nav>.active>a {
-	background-color: #1b92c7;
+	background-color: #146c94;
 }
 
 .navbar-custom .nav li a:focus, .navbar-custom .nav li a:hover {
-    color: #1b92c7;
+    color: #fff;
 }
 
 .navbar-custom .navbar-nav>.active>a:focus, .navbar-custom .navbar-nav>.active>a:hover {
-    background-color: #1b92c7;
+    background-color: #146c94;
 }
 
 .text-primary, a {
@@ -80,4 +80,10 @@ img.prosessen-img {
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
   background: #1b92c7;
+}
+
+@media (min-width: 768px) {
+  .navbar-custom.affix {
+    background-color: #1b92c7;
+  }
 }
