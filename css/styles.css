@@ -168,8 +168,9 @@ video.full {
 }
 
 .intro-lead-in span {
-  color: #404040;
-  background-color: rgb(255, 217, 102);
+  color: #fff;
+  /*color: #404040;
+  background-color: rgb(255, 217, 102);*/
 }
 
 @media (min-width: 300px) and (max-width: 768px) { 
