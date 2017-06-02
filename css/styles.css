@@ -36,6 +36,15 @@ body {
   background-color: #2AB27B;
   border-color: #2AB27B;
 	width: 90px;
+  
+}
+
+#portfolio .portfolio-item .portfolio-link.read-more-btn {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
 
 .read-more-btn:hover, .read-more-btn:active, .read-more-btn:focus {
@@ -239,4 +248,8 @@ blockquote p {
 
 .timeline-body p {
   font-size: 15px;
+}
+
+.portfolio-hover-content p {
+  font-weight: bold;
 }
