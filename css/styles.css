@@ -160,7 +160,7 @@ video.full {
     width: 40px;
   }
 
-  .section-heading {
+  section h2.section-heading {
     font-size: 35px;
   }
 }
