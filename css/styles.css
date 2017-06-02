@@ -33,9 +33,14 @@ body {
 }
 
 .read-more-btn {
+  background-color: #2AB27B;
+  border-color: #2AB27B;
 	width: 90px;
-  background-color: #1b92c7;
-  border-color: #1b92c7;
+}
+
+.read-more-btn:hover, .read-more-btn:active, .read-more-btn:focus {
+  background-color: #44CC95;
+  border-color: #44CC95;
 }
 
 .navbar-brand {
@@ -123,7 +128,6 @@ video.full {
   right: 0;
   bottom: 0;
                    
-
   min-width: 100%;           
   min-height: 100%;
   width: auto;               
@@ -135,7 +139,7 @@ video.full {
   -webkit-transform: translate(-50%,-50%);
   -moz-transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);*/         
+  transform: translate(-50%,-50%);*/      
 
   background: url('../img/startscene.png') no-repeat;      
   background-size: cover;
@@ -152,6 +156,11 @@ video.full {
 .intro-text .intro-lead-in {
   font-weight: bold;
   margin: 0 auto;
+}
+
+.intro-lead-in span {
+  color: #404040;
+  background-color: rgb(255, 217, 102);
 }
 
 @media (min-width: 300px) and (max-width: 768px) { 
@@ -195,4 +204,39 @@ video.full {
   .video {
     display: none;
   }
+}
+
+.btn-primary {
+  background-color: #2AB27B;
+  border-color: #2AB27B;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+  background-color: #44CC95;
+  border-color: #44CC95;
+}
+
+#portfolio .portfolio-item .portfolio-caption p {
+  font-size: 17px;
+  font-style: normal;
+}
+
+section h3.section-subheading {
+  font-size: 18px;
+}
+
+section h2.section-heading {
+  color: #404040;
+}
+
+.service-heading {
+  color: #404040;
+}
+
+blockquote p {
+  font-size: 15px;
+}
+
+.timeline-body p {
+  font-size: 15px;
 }

@@ -70,7 +70,7 @@
 
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">Applikasjoner for din kommune eller bedrift</div>
+                <div class="intro-lead-in"><span>Applikasjoner for din kommune eller bedrift<span></div>
             </div>
         </div>
     </header>
@@ -95,7 +95,6 @@
                         <img src="img/portfolio/borger.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Borger</h4>
                         <p class="text-muted m-t-15">En app tilpasset kommuner. Kommunen får en egen app som innbyggere kan laste ned. En innbygger mottar push-varsel når kommunen legger ut nye nyheter i appen. Publiser vanlige nyheter, små spørreundersøkelser eller kuponger. Legg inn linker til kommunens mest brukte tjenester, som kan åpnes direkte i appen.</p>
                         <a href="#portfolioModal1" class="portfolio-link btn btn-info m-t-20 read-more-btn" data-toggle="modal">Les mer</a>
                     </div>
@@ -110,7 +109,6 @@
                         <img src="img/portfolio/intern.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Intern</h4>
                         <p class="text-muted m-t-15">En app for å kommunisere internt i en kommune eller et firma. Ansatte mottar push-varsel når det legges ut nyheter i appen. Appen har innlogging, og redaktør kan se hvem som har lest nyhetene som er sendt ut til appen. I tillegg kan alle interne tjenester og verktøy som brukes linkes til direkte i appen.</p>
                         <a href="#portfolioModal2" class="portfolio-link btn btn-info m-t-20 read-more-btn" data-toggle="modal">Les mer</a>
                     </div>
@@ -125,7 +123,6 @@
                         <img src="img/portfolio/borgermelding.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Borgermelding</h4>
                         <p class="text-muted m-t-15">Med Borgermelding kan innbyggere i en kommune rapportere inn hendelser. Hull i veien, forsøpling, manglende brøyting kan meldes inn med bilder og en videosnutt, og riktig instans i kommunen mottar en rapport på hendelsen.</p>
                         <a href="#portfolioModal3" class="portfolio-link btn btn-info m-t-20 read-more-btn" data-toggle="modal">Les mer</a>
                     </div>
@@ -581,5 +578,24 @@
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
     <script src="js/agency.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            
+            $(window).scroll(function(){
+   if($(window).scrollTop()<1){
+         $('.intro-lead-in').stop(true,true).fadeIn("slow");
+   } else {
+         $('.intro-lead-in').stop(true,true).fadeOut("slow");
+   }
+});
+            /*$(window).scroll(function(event){
+                toggleHeader();
+            });
+
+            function toggleHeader() {
+                $('.intro-lead-in').toggle( $(window).scrollTop() < 5 );
+            }*/
+        });
+    </script>
 </body>
 </html>
