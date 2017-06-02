@@ -280,3 +280,9 @@ blockquote:before {
 .modal-slider-wrapper img {
   max-height: 400px;
 }
+
+@media (min-width: 300px) and (max-width: 768px) { 
+  .portfolio-modal .modal-content h2 {
+    font-size: 28px;
+  }
+}
