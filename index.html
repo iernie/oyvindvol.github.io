@@ -592,7 +592,13 @@
                }
             });
 
-           $('#portfolioModal1').on('shown.bs.modal', function() {
+            /*$('#portfolioModal1').on('shown.bs.modal', function() {
+                $(window).resize();
+            });*/
+            $('#portfolioModal2').on('shown.bs.modal', function() {
+                $(window).resize();
+            });
+            $('#portfolioModal2').on('shown.bs.modal', function() {
                 $(window).resize();
             });
 
@@ -603,6 +609,10 @@
               fade: true,
               cssEase: 'linear'
             });
+        });
+
+        $(document).on('shown.bs.modal','#portfolioModal1', function () {
+            $(window).resize();
         });
     </script>
 </body>
