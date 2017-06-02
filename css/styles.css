@@ -185,6 +185,10 @@ video.full {
   section h2.section-heading {
     font-size: 30px;
   }
+
+  .portfolio-modal .modal-content h2 {
+    font-size: 28px;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 992px) { 
