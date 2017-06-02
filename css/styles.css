@@ -86,7 +86,7 @@ img.prosessen-img {
   background: #1b92c7;
 }
 
-@media (min-width: 300px) {
+@media (min-width: 300px) and (max-width: 767px) {
   .navbar-custom {
     background-color: #1b92c7;
   }
