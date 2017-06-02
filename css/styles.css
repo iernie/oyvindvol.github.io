@@ -159,6 +159,10 @@ video.full {
   img.prosessen-img {
     width: 40px;
   }
+
+  .section-heading {
+    font-size: 35px;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 992px) { 
