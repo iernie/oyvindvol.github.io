@@ -133,3 +133,36 @@ video.full {
   font-weight: bold;
   margin: 0 auto;
 }
+
+@media (min-width: 300px) and (max-width: 768px) { 
+  .prosessen-img-wrapper {
+    height: 100%;
+    padding-top: 13px;
+  }
+
+  img.prosessen-img {
+    width: 40px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) { 
+  .prosessen-img-wrapper {
+    height: 100%;
+    padding-top: 13px;
+  }
+
+  img.prosessen-img {
+    width: 60px;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) { 
+  .prosessen-img-wrapper {
+    height: 100%;
+    padding-top: 30px;
+  }
+
+  img.prosessen-img {
+    width: 80px;
+  }
+}
