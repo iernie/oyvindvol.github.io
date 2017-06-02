@@ -86,14 +86,30 @@ img.prosessen-img {
   background: #1b92c7;
 }
 
+@media (min-width: 300px) {
+  .navbar-custom {
+    background-color: #1b92c7;
+  }
+}
+
 @media (min-width: 768px) {
   .navbar-custom.affix {
     background-color: #1b92c7;
   }
 }
 
+.navbar-custom .navbar-toggle {
+  background-color: #146c94;
+  border-color: #146c94;
+}
+
+.navbar-custom .navbar-toggle:hover, .navbar-custom .navbar-toggle:focus {
+  background-color: #146c94;
+  border-color: #146c94;
+}
+
 header {
-  background: none;
+  background-image: url('../img/startscene.png');
   height: 100vh;
   overflow: hidden;
 }
@@ -164,5 +180,11 @@ video.full {
 
   img.prosessen-img {
     width: 80px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 768px) { 
+  .video {
+    display: none;
   }
 }
