@@ -287,3 +287,7 @@ blockquote:before {
     font-size: 28px;
   }
 }
+
+.timeline .timeline-heading h4.subheading {
+  color: #404040;
+}
