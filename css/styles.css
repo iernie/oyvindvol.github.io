@@ -306,3 +306,10 @@ blockquote:before {
     background-size: 130px 40px;
   }
 }
+
+.portfolio-modal .modal-content p.long {
+  text-align: left;
+} 
+.portfolio-modal .modal-content p.caption {
+  font-style: italic;
+}
