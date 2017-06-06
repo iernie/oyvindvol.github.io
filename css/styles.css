@@ -310,6 +310,20 @@ blockquote:before {
 .portfolio-modal .modal-content p.long {
   text-align: left;
 } 
+
 .portfolio-modal .modal-content p.caption {
   font-style: italic;
+}
+
+.equal {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+  .row.equal {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
