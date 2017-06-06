@@ -315,13 +315,15 @@ blockquote:before {
   font-style: italic;
 }
 
-.equal {
+
+
+@media (min-width: 768px) {
+
+  .equal {
   display: flex;
   display: -webkit-flex;
   flex-wrap: wrap;
 }
-
-@media (min-width: 768px) {
   .row.equal {
     display: flex;
     flex-wrap: wrap;
