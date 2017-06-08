@@ -100,6 +100,12 @@ img.prosessen-img {
   min-height: 400px;
 }
 
+@media (min-width: 320px) and (max-width: 568px) {
+  #portfolio .portfolio-item .portfolio-caption {
+    min-height: 475px;
+  }
+}
+
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
   background: #1b92c7;
 }
