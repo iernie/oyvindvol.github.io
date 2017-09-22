@@ -380,8 +380,9 @@ a.fb-message-blue:focus {
   background-size: 17px;
   background-position: 7px 9px;
   top: -1px;
-  height: 18px;
-  width: 17px;
+  height: 26px;
+  width: 26px;
   padding: 10px 7px;
   float: left;
+  margin-right: 5px;
 }
