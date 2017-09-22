@@ -357,6 +357,7 @@ a.fb-message-blue {
   -o-transition: all ease .15s;
   -moz-transition: all ease .15s;
   transition: all ease .15s;
+  z-index: 2000;
 }
 a.fb-message-blue:hover {
   background-color: #2093ff;
